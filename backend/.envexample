@@ -1,0 +1,30 @@
+
+
+# Application Configuration
+APP_NAME=FitTrack
+APP_VERSION=3.0.0
+APP_ENV=development
+DEBUG=True
+
+# Database Configuration
+DATABASE_URL=sqlite:///./fittrack.db
+
+# JWT Authentication
+SECRET_KEY=replace_with_a_secure_random_secret
+ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+# Frontend Configuration
+FRONTEND_URL=http://localhost:5173
+
+# Fitness Goals
+DEFAULT_DAILY_CALORIE_GOAL=2000
+DEFAULT_WATER_GOAL=2500
+DEFAULT_WORKOUT_DURATION=30
+
+# Reminder Configuration
+ENABLE_REMINDERS=True
+
+# Third-Party Integrations
+GOOGLE_FIT_ENABLED=False
+APPLE_HEALTH_ENABLED=False
